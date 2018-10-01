@@ -1,0 +1,24 @@
+{
+  "description": "Link to PSB Academy Portal, PSB Moodle, Coventry University Portal,  Coventry University Solar, Google Scholar, Wikipedia in Toolbar", 
+  "manifest_version": 2,
+  "name": "Mozilla Options",
+  "version": "1.0",
+  "icons": {
+    "10": "icons/10.png"
+  },
+  
+  "permissions": [
+    "*://developer.mozilla.org/*",
+    "webRequest",
+    "bookmarks",
+    "tabs"
+    ],
+
+  "browser_action": {
+    "browser_style": true,
+    "default_popup": "popup/Page_select.html",
+    "default_icon": {
+      "10": "icons/10.png"
+    }
+  }
+}
