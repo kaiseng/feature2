@@ -1,0 +1,31 @@
+html, body {
+  width: 200px;
+}
+
+.page-choice {
+  font-size: 18px;
+  padding: 18px;
+  width: 100%;
+  border: solid 1px;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+.bookmarking{
+  font-size: 18px;
+  padding: 18px;
+  width: 100%;
+  border: solid 1px;
+  text-align: center;
+  cursor: pointer;
+ 
+}
+
+.page-choice:hover {
+  background-color: #FFDAB9;
+}
+
+.bookmarking:hover{
+  background-color: #FFDAB9;
+}
